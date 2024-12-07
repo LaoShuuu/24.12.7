@@ -130,9 +130,14 @@
   <ItemGroup>
     <ClCompile Include="24.12.7.cpp" />
     <ClCompile Include="person.cpp" />
+    <ClCompile Include="student.cpp" />
+    <ClCompile Include="teacher.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="person.h" />
+    <ClInclude Include="student.h" />
+    <ClInclude Include="teacher.h" />
+    <ClInclude Include="utility.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
