@@ -7,11 +7,17 @@
 #include "student.h"
 
 #include "utility.h"
+
+#include "Course.h"
+
 using namespace std;
 
 
 int main()
 {
+ 
+    /*
+    
     person person1("a123456789", "Chen", "Jason", "M", "1999-01-01");
 
     person* person2 = new person();
@@ -25,9 +31,13 @@ int main()
     person1.display();
     cout << endl;
     person2->display();
-
+    
+    */
     student student1("A123456789", "Chen", "Jason", "M", "1999-01-01", "S001",
         Department::computersciece, Classname::_1A);
     student1.display();
+    cout << endl;
+    Course course1("C001", "C++ programming", "this course is designed to teach students how to program in C++.");
+    course1.display();
 }
 
