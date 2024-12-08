@@ -10,7 +10,7 @@ private:
 	string courseDescription;
 
 public:
-	Course(const string& courseId, const string& courseName, const string& cousrseDescription);
+	Course(const string& courseId, const string& courseName, const string& courseDescription);
 	Course();
 
 	//getter
@@ -21,7 +21,7 @@ public:
 	//setter
 	void setCourseId(const string& courseId);
 	void setCourseName(const string& coursename);
-	void setCoueseDescription(const string& courseDescription);
+	void setCourseDescription(const string& courseDescription);
 	void display() const;
 };
 

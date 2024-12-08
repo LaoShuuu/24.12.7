@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-Course::Course(const string& courseId, const string& courseName, const string& cousrseDescription)
+Course::Course(const string& courseId, const string& courseName, const string& courseDescription) : courseId(courseId), courseName(courseName), courseDescription(courseDescription)
 {
 
 }
@@ -36,7 +36,7 @@ void Course::setCourseName(const string& coursename)
 	this->courseName = courseName;
 }
 
-void Course::setCoueseDescription(const string& courseDescription)
+void Course::setCourseDescription(const string& courseDescription)
 {
 	this->courseDescription = courseDescription;
 }

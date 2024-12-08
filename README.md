@@ -23,4 +23,5 @@
 ## ver 3
 - 新增README.md 檔案
 - 新增Course類別
-- 
+- 新增繼承自person的techer 類別
+- 使用vector容器儲存物件來記錄教師所授課的課程

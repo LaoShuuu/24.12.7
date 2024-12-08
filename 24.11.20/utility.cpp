@@ -3,7 +3,8 @@
 
 string utility::tostring(Department department)
 {
-    switch (department) {
+    switch (department)
+    {
     case Department::computersciece:
         return "資訊工程系";
     case Department::electricalengineering:
@@ -19,7 +20,8 @@ string utility::tostring(Department department)
 
 string utility::tostring(Classname classname)
 {
-    switch (classname) {
+    switch (classname) 
+    {
     case Classname::_1A:
         return "一甲";
     case Classname::_1B:
