@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-class Record 
+class Record
 {
 private:
 	static int recordId;
@@ -10,7 +10,7 @@ private:
 	string courseId;
 public:
 	Record();
-	Record(string studentId, string courseId);
+	Record(string& studentId, string& courseId);
 
 	//getter
 	string getstudentId();
