@@ -36,7 +36,7 @@ int main()
     
     */
 
-    student student1("A123456789", "陳", "小明", "男", "1999-01-01", "S001",
+    student student1("4B3G0157", "林", "宜璇", "女", "2005-10-05", "4B3G0157",
         Department::computersciece, Classname::_1A);
     student1.display();
     

@@ -25,3 +25,9 @@
 - 新增Course類別
 - 新增繼承自person的techer 類別
 - 使用vector容器儲存物件來記錄教師所授課的課程
+
+
+## ver 4
+- 
+- 你好 
+- [ 我ㄉGI哈泊 ](https://github.com/LaoShuuu?tab=repositories)
