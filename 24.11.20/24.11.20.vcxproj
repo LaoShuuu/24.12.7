@@ -131,6 +131,7 @@
     <ClCompile Include="24.12.7.cpp" />
     <ClCompile Include="Course.cpp" />
     <ClCompile Include="person.cpp" />
+    <ClCompile Include="Record.cpp" />
     <ClCompile Include="student.cpp" />
     <ClCompile Include="teacher.cpp" />
     <ClCompile Include="utility.cpp" />
@@ -138,6 +139,7 @@
   <ItemGroup>
     <ClInclude Include="Course.h" />
     <ClInclude Include="person.h" />
+    <ClInclude Include="Record.h" />
     <ClInclude Include="student.h" />
     <ClInclude Include="teacher.h" />
     <ClInclude Include="utility.h" />

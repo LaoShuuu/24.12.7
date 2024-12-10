@@ -2,6 +2,8 @@
 
 #include <iostream>
 
+#include <vector>
+
 #include "person.h"
 
 #include "student.h"
@@ -12,8 +14,11 @@
 
 #include "Course.h"
 
+#include "Record.h"
 using namespace std;
 
+//新增全域變數來儲存學生、老師、課程、選課紀錄 的資料
+//vector
 
 int main()
 {
@@ -36,7 +41,7 @@ int main()
     
     */
 
-    student student1("4B3G0157", "林", "宜璇", "女", "2005-10-05", "4B3G0157",
+    student student1("S001", "林", "宜璇", "女", "2005-10-05", "S001",
         Department::computersciece, Classname::_1A);
     student1.display();
     

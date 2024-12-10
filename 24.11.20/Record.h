@@ -1,5 +1,8 @@
 #pragma once
+
 #include <string>
+
+#include <ctime>
 using namespace std;
 
 class Record
