@@ -28,6 +28,7 @@
 
 
 ## ver 4
-- 
-- 你好 
 - [ 我ㄉGI哈泊 ](https://github.com/LaoShuuu?tab=repositories)
+- 新增選課紀錄Record類別
+- 
+- 
