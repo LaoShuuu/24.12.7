@@ -1,23 +1,27 @@
 #pragma once
 
 #include <string>
-
 #include <ctime>
 using namespace std;
 
 class Record
 {
 private:
-	static int recordId;
+	static int nextId;
+	int recordId; //靜態變數，用於紀錄選課的流水號
 	string studentId;
 	string courseId;
+	time_t recordDate;
+
 public:
 	Record();
 	Record(string& studentId, string& courseId);
 
 	//getter
-	string getstudentId();
-	string getcourseId();
+	int getRecordId() const;
+	string getStudentId() const;
+	string getCourseId() const;
+	time_t getRecordDate() const;
 
 	void display();
 };
