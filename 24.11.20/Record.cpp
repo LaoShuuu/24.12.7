@@ -26,7 +26,7 @@ string Record::getCourseId() const
 	return courseId;
 }
 
-time_t Record::getRecordDate() const
+string Record::getRecordDate() const
 {
 	char buffer[20];
 	struct tm timeinfo;
@@ -41,7 +41,7 @@ void Record::display()
 {
 	cout << "選課序號 : " << getRecordId() << endl;
 	cout << "學號 : " << getStudentId() << endl;
-	cout << "課程代碼 : " <<getCourseId << endl;
+	cout << "課程代碼 : " <<getCourseId() << endl;
 	cout << "選課日期 : " << getRecordDate() << endl;
 	cout << "--------------------" << endl;
 }

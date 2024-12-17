@@ -21,7 +21,7 @@ public:
 	int getRecordId() const;
 	string getStudentId() const;
 	string getCourseId() const;
-	time_t getRecordDate() const;
+	string getRecordDate() const;
 
 	void display();
 };
